@@ -12,7 +12,7 @@
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | `客脉图_v1.4.0_debug.apk` | 10.9 MB | 见本页底部 Assets，直接安装，无需 root |
+| Android 8.0+ | `kemai-tu-v1.4.0.apk` | 10.9 MB | 见本页底部 Assets，直接安装，无需 root |
 
 **安装步骤**
 

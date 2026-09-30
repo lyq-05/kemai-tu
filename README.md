@@ -37,7 +37,7 @@
 
 | 平台 | 安装包 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Android 8.0+ | [`客脉图_v1.4.0_debug.apk`](https://github.com/lyq-05/kemai-tu/releases/latest) | 10.9 MB | 直接安装，无需 root |
+| Android 8.0+ | [`kemai-tu-v1.4.0.apk`](https://github.com/lyq-05/kemai-tu/releases/latest) | 10.9 MB | 直接安装，无需 root |
 
 > 名字里带 `debug` 是因为用了调试签名 —— 私人自用，方便直接安装、方便后续覆盖升级。
 > 功能上和正式包没有区别。
