@@ -1,19 +1,60 @@
 # 客脉图
 
-> **客户成脉，往来成图**
+<p align="center">
+  <a href="https://github.com/lyq-05/kemai-tu/releases"><img alt="版本" src="https://img.shields.io/github/v/release/lyq-05/kemai-tu?label=%E7%89%88%E6%9C%AC&color=blue"></a>
+  <a href="https://github.com/lyq-05/kemai-tu/releases"><img alt="总下载" src="https://img.shields.io/github/downloads/lyq-05/kemai-tu/total?label=%E6%80%BB%E4%B8%8B%E8%BD%BD&color=brightgreen"></a>
+  <a href="https://github.com/lyq-05/kemai-tu"><img alt="Stars" src="https://img.shields.io/github/stars/lyq-05/kemai-tu?style=social"></a>
+  <a href="https://github.com/lyq-05/kemai-tu/commits/main"><img alt="最后提交" src="https://img.shields.io/github/last-commit/lyq-05/kemai-tu?label=%E6%9C%80%E5%90%8E%E6%8F%90%E4%BA%A4"></a>
+  <img alt="平台" src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Android-3DDC84">
+  <img alt="系统要求" src="https://img.shields.io/badge/Android-8.0%2B-3DDC84">
+  <img alt="安装包" src="https://img.shields.io/badge/%E5%AE%89%E8%A3%85%E5%8C%85-10.9%20MB-orange">
+  <img alt="网络" src="https://img.shields.io/badge/%E7%BD%91%E7%BB%9C-%E4%B8%8D%E8%81%94%E7%BD%91-lightgrey">
+</p>
 
-把客户关系画成一张可以无限延展的思维导图 —— 谁介绍了谁，一眼看清；
+<p align="center">
+  <b>客户成脉，往来成图</b><br>
+  把客户关系画成一张可以无限延展的思维导图
+</p>
+
+---
+
+一个 **Android 客户关系导图 + 拜访提醒** 应用。谁介绍了谁，一眼看清；
 再按办卡时间自动生成拜访清单，该跟进的一个都不漏。
 
-Android 应用 · 纯本地存储 · **不联网、不要任何账号**
+**纯本地存储 · 不联网、不要账号 · 没有广告、没有统计**
+
+> **当前版本 v1.4.0（2026-09-30 发布）**：真机反馈修复版。
+> 修复 iQOO Neo9S Pro+ / Android 14 实测发现的 5 个问题 —— 画布点击延迟（双击手势导致的 300ms 等待）、
+> 通知不横幅弹出（渠道重要性）、电池优化误判（标准 Doze 白名单 vs 厂商策略）、
+> 测试闹钟不触发（非精确闹钟被无限期延后）、主动申请精确闹钟权限并明确告知后果。
+> 逐项说明见 **[v1.4.0 发布说明](docs/RELEASE_v1.4.0.md)**，完整历史见 **[CHANGELOG](CHANGELOG.md)**。
+
+---
+
+## 下载
+
+到 **[Releases](https://github.com/lyq-05/kemai-tu/releases/latest)** 下载最新版安装包：
+
+| 平台 | 安装包 | 大小 | 说明 |
+| --- | --- | --- | --- |
+| Android 8.0+ | [`客脉图_v1.4.0_debug.apk`](https://github.com/lyq-05/kemai-tu/releases/latest) | 10.9 MB | 直接安装，无需 root |
+
+> 名字里带 `debug` 是因为用了调试签名 —— 私人自用，方便直接安装、方便后续覆盖升级。
+> 功能上和正式包没有区别。
+
+**安装步骤**
+
+1. 把 APK 传到手机（微信 / QQ / 数据线均可）
+2. 在手机上点开这个文件
+3. 系统提示"不允许安装未知来源应用"时，给**文件管理器**开启"允许安装未知应用"权限，然后继续
 
 ---
 
 ## 界面
 
-| 主界面（竖向脉络） | 横向脉络 | 客户编辑 |
+| 主界面（竖向脉络） | 客户编辑 | 横向脉络 |
 | :---: | :---: | :---: |
-| ![主界面](docs/screenshots/01-主界面-竖向脉络.png) | ![横向脉络](docs/screenshots/08-横向脉络.png) | ![编辑客户](docs/screenshots/02-客户编辑面板.png) |
+| ![主界面](docs/screenshots/01-主界面-竖向脉络.png) | ![编辑客户](docs/screenshots/02-客户编辑面板.png) | ![横向脉络](docs/screenshots/08-横向脉络.png) |
 
 | 拜访清单 | 提醒设置 | 通知自检 |
 | :---: | :---: | :---: |
@@ -75,16 +116,7 @@ Android 应用 · 纯本地存储 · **不联网、不要任何账号**
 
 ---
 
-## 安装
-
-1. 到 [Releases](../../releases) 下载最新的 `客脉图_vX.Y.Z_debug.apk`
-2. 传到手机（微信 / QQ / 数据线均可），点击安装
-3. 系统提示"不允许安装未知来源应用"时，给**文件管理器**开启"允许安装未知应用"权限后继续
-
-> **首次打开是干净的空画布**，没有任何演示数据。
-> 空画布中间有个「新建第一位客户」按钮，点它开始。
-
-### 权限说明
+## 权限说明
 
 应用**不申请网络权限**，也不申请存储权限（导出备份用系统文件选择器）。
 只有拜访提醒用到这几个，都不涉及隐私数据：
@@ -135,63 +167,46 @@ Android 应用 · 纯本地存储 · **不联网、不要任何账号**
 
 ---
 
-## 从源码构建
+## 常见问题
 
-需要 JDK 17+ 和 Android SDK（compileSdk 36）。
+**Q：装完打开是空的，是不是坏了？**
 
-```bash
-# 构建 debug 包
-./gradlew :app:assembleDebug
+不是。**首次打开就是干净的空画布**，没有任何演示数据。
+点画布中间的「新建第一位客户」开始。
 
-# 产物
-app/build/outputs/apk/debug/app-debug.apk
-```
+**Q：拜访清单里怎么什么都没有？**
 
-Windows 下也可以用仓库里的脚本：
+自动清单按"首次办卡时间在最近 6 个月内"生成。新装的空应用里当然是空的。
+给任意一位客户填上**今天的日期**作为「首次办卡时间」，他立刻就会出现在清单里。
 
-```bat
-工具\2-构建并安装.bat
-```
+**Q：以后新增客户，为什么找不到「＋」按钮？**
 
-### 技术栈
+新建客户主要走卡片上的 **「加下级」**（这位客户介绍来的人）和 **「加同级」**
+（和它同一个介绍人的客户）—— 这才符合真实的客户关系。
+只有第一位客户用空画布中间那个按钮建。
 
-纯 Kotlin + Jetpack Compose + Material 3，**零第三方依赖**：
+**Q：换手机了数据怎么办？**
 
-| 项 | 版本 |
-| --- | --- |
-| Kotlin | 2.2.10 |
-| Compose BOM | 2025.04.01 |
-| AGP | 8.13.0 |
-| Gradle | 8.14.3 |
-| compileSdk / targetSdk | 36 |
-| minSdk | 26（Android 8.0） |
+设置 → 数据 → **导出备份**，存一份 JSON 文件。新手机装好后用「导入恢复」读回来。
 
-数据存本机单个 JSON 文件（`filesDir/kemai_data.json`）；
-画布用 `Canvas` + `TextMeasurer` 手绘配合视口裁剪与细节分级；
-提醒用系统自带 `AlarmManager`。
+**Q：我的行业不叫"客户 / 办卡 / 产品"怎么办？**
 
-### 工程结构
-
-```
-KemaiTu/app/src/main/java/com/kemai/app/
-├── model/Models.kt              数据模型 + 字段名/脉络方向/配色方式/语言等枚举
-├── data/                        JsonCodec + AppRepository
-├── reminder/                    ReminderScheduler + ReminderReceiver + BootReceiver
-├── ui/
-│   ├── theme/                   配色（深度/家族两套）、字号、各类 CompositionLocal
-│   ├── canvas/                  TreeLayout（竖向/横向双方向）+ CanvasScreen
-│   ├── components/              通用小部件 + KemaiIcon（自绘图标入口）
-│   ├── editor/ products/ search/ visits/ settings/ guide/
-├── util/Dates.kt
-├── KemaiApplication.kt
-└── MainActivity.kt
-```
+设置 → **字段名称**，三个内置字段都能改成任何叫法（学员 / 入学时间 / 报读课程…），
+改完编辑面板、搜索提示都会跟着变。
 
 ---
 
 ## 版本历史
 
-见 [CHANGELOG.md](CHANGELOG.md)。
+见 **[CHANGELOG.md](CHANGELOG.md)**，每个版本的安装包在 **[Releases](https://github.com/lyq-05/kemai-tu/releases)**。
+
+| 版本 | 主题 |
+| --- | --- |
+| v1.4.0 | 真机反馈修复版 |
+| v1.3.0 | 界面与体验（品牌区、按深度分色、选中态、中文日期选择器） |
+| v1.2.0 | 可配置与引导（操作指南、横向脉络、字段重命名、自绘图标） |
+| v1.1.0 | 拜访提醒（清单、三层提醒、通知自检） |
+| v1.0.0 | 核心版（无限画布导图、客户字段、产品库、搜索、本地存储） |
 
 ---
 
@@ -203,4 +218,4 @@ KemaiTu/app/src/main/java/com/kemai/app/
 
 ---
 
-*客户成脉，往来成图。*
+<p align="center"><i>客户成脉，往来成图。</i></p>
