@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  启动图标前景层（占位版）。
+  三个节点连成一张小脉络图 —— 直接表达"客户关系是一张网"这件事。
+  注意：内容控制在中央 66×66 的安全区内，这样圆形 / 方形 / 圆角矩形三种遮罩都不会被裁掉。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 连线的柔和投影 -->
+    <path
+        android:pathData="M54,33 L54,58 M35,58 L73,58 M35,58 L35,75 M73,58 L73,75"
+        android:strokeColor="#33000000"
+        android:strokeWidth="5.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:translateY="1.6" />
+
+    <!-- 连线 -->
+    <path
+        android:pathData="M54,33 L54,58 M35,58 L73,58 M35,58 L35,75 M73,58 L73,75"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="4.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- 上级节点（略大，突出"根"） -->
+    <path
+        android:pathData="M54,33 m-10.5,0 a10.5,10.5 0 1,0 21,0 a10.5,10.5 0 1,0 -21,0"
+        android:fillColor="#FFFFFFFF" />
+
+    <!-- 两个下级节点 -->
+    <path
+        android:pathData="M35,75 m-8.5,0 a8.5,8.5 0 1,0 17,0 a8.5,8.5 0 1,0 -17,0"
+        android:fillColor="#FFFFFFFF" />
+    <path
+        android:pathData="M73,75 m-8.5,0 a8.5,8.5 0 1,0 17,0 a8.5,8.5 0 1,0 -17,0"
+        android:fillColor="#FFFFFFFF" />
+
+    <!-- 根节点上一点暖色，让图标有点"人味" -->
+    <path
+        android:pathData="M60.5,26.5 m-3.2,0 a3.2,3.2 0 1,0 6.4,0 a3.2,3.2 0 1,0 -6.4,0"
+        android:fillColor="#FFF2C46B" />
+</vector>

@@ -1,0 +1,39 @@
+# ---- 构建产物 ----
+build/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ---- Gradle ----
+.gradle/
+gradle-app.setting
+.gradletasknamecache
+local.properties
+
+# ---- Android Studio / IntelliJ ----
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+Thumbs.db
+
+# ---- 本机的模拟器环境（好几个 G，绝不能进仓库）----
+.android/
+
+# ---- 过程截图（只保留 docs/screenshots 下的精选图）----
+工具/shots/
+
+# ---- 临时脚本与日志 ----
+工具/_hz.json
+工具/_p.py
+工具/_probe.png
+*.log
+
+# ---- 例外：要随仓库发布的安装包 ----
+!releases/*.apk

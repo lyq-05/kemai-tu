@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "app": "客脉图",
+  "exportedAt": "2026-09-29T10:00:00+08:00",
+  "settings": {
+    "theme": "SYSTEM",
+    "fontScale": "STANDARD",
+    "layoutMode": "VERTICAL",
+    "guidePromptDone": true,
+    "fieldLabels": { "name": "客户名称", "cardDate": "首次办卡时间", "product": "使用过的产品" },
+    "reminder": {
+      "enabled": true,
+      "notifyHour": 9,
+      "notifyDayOfWeek": 1,
+      "newCustomerMonths": 6,
+      "frequency": "WEEKLY"
+    }
+  },
+  "products": [
+    { "id": "p1", "name": "金卡", "order": 0, "archived": false },
+    { "id": "p2", "name": "白金卡", "order": 1, "archived": false },
+    { "id": "p3", "name": "理财通", "order": 2, "archived": false },
+    { "id": "p4", "name": "信用贷", "order": 3, "archived": false },
+    { "id": "p5", "name": "家庭保障计划", "order": 4, "archived": false }
+  ],
+  "customers": [
+    { "id": "c1", "name": "客户A", "firstCardDate": "2026-09-20", "productIds": ["p1","p2"], "note": "周一上午不要打电话", "customEntries": [ { "id": "e1", "label": "微信号", "value": "同手机号" } ], "referrerId": null, "collapsed": false, "createdAt": 1, "updatedAt": 1 },
+    { "id": "c2", "name": "客户B", "firstCardDate": "2026-08-11", "productIds": ["p1"], "note": "", "customEntries": [], "referrerId": "c1", "collapsed": false, "createdAt": 2, "updatedAt": 2 },
+    { "id": "c3", "name": "客户D", "firstCardDate": "2026-07-02", "productIds": ["p3"], "note": "", "customEntries": [], "referrerId": "c2", "collapsed": false, "createdAt": 3, "updatedAt": 3 },
+    { "id": "c4", "name": "客户C", "firstCardDate": "2026-06-15", "productIds": ["p2","p3"], "note": "", "customEntries": [], "referrerId": "c1", "collapsed": false, "createdAt": 4, "updatedAt": 4 },
+    { "id": "c5", "name": "客户X", "firstCardDate": "2026-05-08", "productIds": ["p4"], "note": "", "customEntries": [], "referrerId": null, "collapsed": false, "createdAt": 5, "updatedAt": 5 },
+    { "id": "c6", "name": "客户Y", "firstCardDate": "2026-04-20", "productIds": ["p5"], "note": "", "customEntries": [], "referrerId": "c5", "collapsed": false, "createdAt": 6, "updatedAt": 6 },
+    { "id": "c7", "name": "客户Z", "firstCardDate": "2026-03-11", "productIds": [], "note": "", "customEntries": [], "referrerId": "c5", "collapsed": false, "createdAt": 7, "updatedAt": 7 },
+    { "id": "c8", "name": "客户M", "firstCardDate": null, "productIds": [], "note": "", "customEntries": [], "referrerId": null, "collapsed": false, "createdAt": 8, "updatedAt": 8 }
+  ],
+  "visitLists": [],
+  "visitItems": [],
+  "visitRecords": []
+}

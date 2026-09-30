@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 客脉图自绘图标：细线描边风格（strokeWidth 1.7 / 圆角端点） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M4.4,19.6 L5.6,15.2 L15.9,4.9 A2.25,2.25 0 0,1 19.1,8.1 L8.8,18.4 Z"
+        android:strokeColor="#FF1C2321"
+        android:strokeWidth="1.7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M14.4,6.4 L17.6,9.6"
+        android:strokeColor="#FF1C2321"
+        android:strokeWidth="1.7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

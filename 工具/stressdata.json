@@ -1,0 +1,2848 @@
+{
+ "schemaVersion": 1,
+ "app": "客脉图",
+ "settings": {
+  "theme": "LIGHT",
+  "fontScale": "STANDARD"
+ },
+ "products": [
+  {
+   "id": "p1",
+   "name": "产品1",
+   "order": 1,
+   "archived": false
+  },
+  {
+   "id": "p2",
+   "name": "产品2",
+   "order": 2,
+   "archived": false
+  },
+  {
+   "id": "p3",
+   "name": "产品3",
+   "order": 3,
+   "archived": false
+  },
+  {
+   "id": "p4",
+   "name": "产品4",
+   "order": 4,
+   "archived": false
+  },
+  {
+   "id": "p5",
+   "name": "产品5",
+   "order": 5,
+   "archived": false
+  },
+  {
+   "id": "p6",
+   "name": "产品6",
+   "order": 6,
+   "archived": false
+  }
+ ],
+ "customers": [
+  {
+   "id": "c1",
+   "name": "张伟",
+   "firstCardDate": "2026-06-05",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 1,
+   "updatedAt": 1
+  },
+  {
+   "id": "c2",
+   "name": "李娜2",
+   "firstCardDate": "2026-01-03",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c1",
+   "collapsed": false,
+   "createdAt": 2,
+   "updatedAt": 2
+  },
+  {
+   "id": "c3",
+   "name": "刘洋3",
+   "firstCardDate": "2026-02-12",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c1",
+   "collapsed": false,
+   "createdAt": 3,
+   "updatedAt": 3
+  },
+  {
+   "id": "c4",
+   "name": "陈静4",
+   "firstCardDate": "2026-01-17",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c1",
+   "collapsed": false,
+   "createdAt": 4,
+   "updatedAt": 4
+  },
+  {
+   "id": "c5",
+   "name": "杨帆5",
+   "firstCardDate": "2026-01-03",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c2",
+   "collapsed": false,
+   "createdAt": 5,
+   "updatedAt": 5
+  },
+  {
+   "id": "c6",
+   "name": "赵磊6",
+   "firstCardDate": "2026-07-03",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c3",
+   "collapsed": false,
+   "createdAt": 6,
+   "updatedAt": 6
+  },
+  {
+   "id": "c7",
+   "name": "黄敏7",
+   "firstCardDate": "2026-02-18",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c4",
+   "collapsed": false,
+   "createdAt": 7,
+   "updatedAt": 7
+  },
+  {
+   "id": "c8",
+   "name": "周涛8",
+   "firstCardDate": "2026-01-27",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c5",
+   "collapsed": false,
+   "createdAt": 8,
+   "updatedAt": 8
+  },
+  {
+   "id": "c9",
+   "name": "吴倩9",
+   "firstCardDate": "2026-02-08",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c6",
+   "collapsed": false,
+   "createdAt": 9,
+   "updatedAt": 9
+  },
+  {
+   "id": "c10",
+   "name": "徐强10",
+   "firstCardDate": "2026-01-19",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c7",
+   "collapsed": false,
+   "createdAt": 10,
+   "updatedAt": 10
+  },
+  {
+   "id": "c11",
+   "name": "王芳",
+   "firstCardDate": "2026-07-02",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 11,
+   "updatedAt": 11
+  },
+  {
+   "id": "c12",
+   "name": "马超12",
+   "firstCardDate": "2026-01-18",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c11",
+   "collapsed": false,
+   "createdAt": 12,
+   "updatedAt": 12
+  },
+  {
+   "id": "c13",
+   "name": "朱婷13",
+   "firstCardDate": "2026-05-14",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c11",
+   "collapsed": false,
+   "createdAt": 13,
+   "updatedAt": 13
+  },
+  {
+   "id": "c14",
+   "name": "胡军14",
+   "firstCardDate": "2026-09-04",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c11",
+   "collapsed": false,
+   "createdAt": 14,
+   "updatedAt": 14
+  },
+  {
+   "id": "c15",
+   "name": "郭燕15",
+   "firstCardDate": "2026-05-18",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c12",
+   "collapsed": false,
+   "createdAt": 15,
+   "updatedAt": 15
+  },
+  {
+   "id": "c16",
+   "name": "林峰16",
+   "firstCardDate": "2026-03-04",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c13",
+   "collapsed": false,
+   "createdAt": 16,
+   "updatedAt": 16
+  },
+  {
+   "id": "c17",
+   "name": "何静17",
+   "firstCardDate": "2026-04-12",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c14",
+   "collapsed": false,
+   "createdAt": 17,
+   "updatedAt": 17
+  },
+  {
+   "id": "c18",
+   "name": "高鹏18",
+   "firstCardDate": "2026-09-23",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c15",
+   "collapsed": false,
+   "createdAt": 18,
+   "updatedAt": 18
+  },
+  {
+   "id": "c19",
+   "name": "罗霞19",
+   "firstCardDate": "2026-01-20",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c16",
+   "collapsed": false,
+   "createdAt": 19,
+   "updatedAt": 19
+  },
+  {
+   "id": "c20",
+   "name": "张伟20",
+   "firstCardDate": "2026-08-22",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c17",
+   "collapsed": false,
+   "createdAt": 20,
+   "updatedAt": 20
+  },
+  {
+   "id": "c21",
+   "name": "李娜",
+   "firstCardDate": "2026-07-25",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 21,
+   "updatedAt": 21
+  },
+  {
+   "id": "c22",
+   "name": "李娜22",
+   "firstCardDate": "2026-08-19",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c21",
+   "collapsed": false,
+   "createdAt": 22,
+   "updatedAt": 22
+  },
+  {
+   "id": "c23",
+   "name": "刘洋23",
+   "firstCardDate": "2026-06-10",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c21",
+   "collapsed": false,
+   "createdAt": 23,
+   "updatedAt": 23
+  },
+  {
+   "id": "c24",
+   "name": "陈静24",
+   "firstCardDate": "2026-03-23",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c21",
+   "collapsed": false,
+   "createdAt": 24,
+   "updatedAt": 24
+  },
+  {
+   "id": "c25",
+   "name": "杨帆25",
+   "firstCardDate": "2026-02-19",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c22",
+   "collapsed": false,
+   "createdAt": 25,
+   "updatedAt": 25
+  },
+  {
+   "id": "c26",
+   "name": "赵磊26",
+   "firstCardDate": "2026-09-16",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c23",
+   "collapsed": false,
+   "createdAt": 26,
+   "updatedAt": 26
+  },
+  {
+   "id": "c27",
+   "name": "黄敏27",
+   "firstCardDate": "2026-08-10",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c24",
+   "collapsed": false,
+   "createdAt": 27,
+   "updatedAt": 27
+  },
+  {
+   "id": "c28",
+   "name": "周涛28",
+   "firstCardDate": "2026-02-04",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c25",
+   "collapsed": false,
+   "createdAt": 28,
+   "updatedAt": 28
+  },
+  {
+   "id": "c29",
+   "name": "吴倩29",
+   "firstCardDate": "2026-07-06",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c26",
+   "collapsed": false,
+   "createdAt": 29,
+   "updatedAt": 29
+  },
+  {
+   "id": "c30",
+   "name": "徐强30",
+   "firstCardDate": "2026-03-16",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c27",
+   "collapsed": false,
+   "createdAt": 30,
+   "updatedAt": 30
+  },
+  {
+   "id": "c31",
+   "name": "刘洋",
+   "firstCardDate": "2026-01-22",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 31,
+   "updatedAt": 31
+  },
+  {
+   "id": "c32",
+   "name": "马超32",
+   "firstCardDate": "2026-09-19",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c31",
+   "collapsed": false,
+   "createdAt": 32,
+   "updatedAt": 32
+  },
+  {
+   "id": "c33",
+   "name": "朱婷33",
+   "firstCardDate": "2026-06-23",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c31",
+   "collapsed": false,
+   "createdAt": 33,
+   "updatedAt": 33
+  },
+  {
+   "id": "c34",
+   "name": "胡军34",
+   "firstCardDate": "2026-08-19",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c31",
+   "collapsed": false,
+   "createdAt": 34,
+   "updatedAt": 34
+  },
+  {
+   "id": "c35",
+   "name": "郭燕35",
+   "firstCardDate": "2026-02-27",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c32",
+   "collapsed": false,
+   "createdAt": 35,
+   "updatedAt": 35
+  },
+  {
+   "id": "c36",
+   "name": "林峰36",
+   "firstCardDate": "2026-05-16",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c33",
+   "collapsed": false,
+   "createdAt": 36,
+   "updatedAt": 36
+  },
+  {
+   "id": "c37",
+   "name": "何静37",
+   "firstCardDate": "2026-02-02",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c34",
+   "collapsed": false,
+   "createdAt": 37,
+   "updatedAt": 37
+  },
+  {
+   "id": "c38",
+   "name": "高鹏38",
+   "firstCardDate": "2026-05-21",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c35",
+   "collapsed": false,
+   "createdAt": 38,
+   "updatedAt": 38
+  },
+  {
+   "id": "c39",
+   "name": "罗霞39",
+   "firstCardDate": "2026-08-10",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c36",
+   "collapsed": false,
+   "createdAt": 39,
+   "updatedAt": 39
+  },
+  {
+   "id": "c40",
+   "name": "张伟40",
+   "firstCardDate": "2026-07-22",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c37",
+   "collapsed": false,
+   "createdAt": 40,
+   "updatedAt": 40
+  },
+  {
+   "id": "c41",
+   "name": "陈静",
+   "firstCardDate": "2026-01-15",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 41,
+   "updatedAt": 41
+  },
+  {
+   "id": "c42",
+   "name": "李娜42",
+   "firstCardDate": "2026-03-20",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c41",
+   "collapsed": false,
+   "createdAt": 42,
+   "updatedAt": 42
+  },
+  {
+   "id": "c43",
+   "name": "刘洋43",
+   "firstCardDate": "2026-08-02",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c41",
+   "collapsed": false,
+   "createdAt": 43,
+   "updatedAt": 43
+  },
+  {
+   "id": "c44",
+   "name": "陈静44",
+   "firstCardDate": "2026-05-05",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c41",
+   "collapsed": false,
+   "createdAt": 44,
+   "updatedAt": 44
+  },
+  {
+   "id": "c45",
+   "name": "杨帆45",
+   "firstCardDate": "2026-04-13",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c42",
+   "collapsed": false,
+   "createdAt": 45,
+   "updatedAt": 45
+  },
+  {
+   "id": "c46",
+   "name": "赵磊46",
+   "firstCardDate": "2026-08-03",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c43",
+   "collapsed": false,
+   "createdAt": 46,
+   "updatedAt": 46
+  },
+  {
+   "id": "c47",
+   "name": "黄敏47",
+   "firstCardDate": "2026-08-13",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c44",
+   "collapsed": false,
+   "createdAt": 47,
+   "updatedAt": 47
+  },
+  {
+   "id": "c48",
+   "name": "周涛48",
+   "firstCardDate": "2026-05-05",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c45",
+   "collapsed": false,
+   "createdAt": 48,
+   "updatedAt": 48
+  },
+  {
+   "id": "c49",
+   "name": "吴倩49",
+   "firstCardDate": "2026-09-09",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c46",
+   "collapsed": false,
+   "createdAt": 49,
+   "updatedAt": 49
+  },
+  {
+   "id": "c50",
+   "name": "徐强50",
+   "firstCardDate": "2026-07-12",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c47",
+   "collapsed": false,
+   "createdAt": 50,
+   "updatedAt": 50
+  },
+  {
+   "id": "c51",
+   "name": "杨帆",
+   "firstCardDate": "2026-07-08",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 51,
+   "updatedAt": 51
+  },
+  {
+   "id": "c52",
+   "name": "马超52",
+   "firstCardDate": "2026-02-06",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c51",
+   "collapsed": false,
+   "createdAt": 52,
+   "updatedAt": 52
+  },
+  {
+   "id": "c53",
+   "name": "朱婷53",
+   "firstCardDate": "2026-04-22",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c51",
+   "collapsed": false,
+   "createdAt": 53,
+   "updatedAt": 53
+  },
+  {
+   "id": "c54",
+   "name": "胡军54",
+   "firstCardDate": "2026-01-16",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c51",
+   "collapsed": false,
+   "createdAt": 54,
+   "updatedAt": 54
+  },
+  {
+   "id": "c55",
+   "name": "郭燕55",
+   "firstCardDate": "2026-03-09",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c52",
+   "collapsed": false,
+   "createdAt": 55,
+   "updatedAt": 55
+  },
+  {
+   "id": "c56",
+   "name": "林峰56",
+   "firstCardDate": "2026-01-05",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c53",
+   "collapsed": false,
+   "createdAt": 56,
+   "updatedAt": 56
+  },
+  {
+   "id": "c57",
+   "name": "何静57",
+   "firstCardDate": "2026-09-12",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c54",
+   "collapsed": false,
+   "createdAt": 57,
+   "updatedAt": 57
+  },
+  {
+   "id": "c58",
+   "name": "高鹏58",
+   "firstCardDate": "2026-06-05",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c55",
+   "collapsed": false,
+   "createdAt": 58,
+   "updatedAt": 58
+  },
+  {
+   "id": "c59",
+   "name": "罗霞59",
+   "firstCardDate": "2026-09-20",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c56",
+   "collapsed": false,
+   "createdAt": 59,
+   "updatedAt": 59
+  },
+  {
+   "id": "c60",
+   "name": "张伟60",
+   "firstCardDate": "2026-01-15",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c57",
+   "collapsed": false,
+   "createdAt": 60,
+   "updatedAt": 60
+  },
+  {
+   "id": "c61",
+   "name": "赵磊",
+   "firstCardDate": "2026-09-13",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 61,
+   "updatedAt": 61
+  },
+  {
+   "id": "c62",
+   "name": "李娜62",
+   "firstCardDate": "2026-07-13",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c61",
+   "collapsed": false,
+   "createdAt": 62,
+   "updatedAt": 62
+  },
+  {
+   "id": "c63",
+   "name": "刘洋63",
+   "firstCardDate": "2026-08-21",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c61",
+   "collapsed": false,
+   "createdAt": 63,
+   "updatedAt": 63
+  },
+  {
+   "id": "c64",
+   "name": "陈静64",
+   "firstCardDate": "2026-01-07",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c61",
+   "collapsed": false,
+   "createdAt": 64,
+   "updatedAt": 64
+  },
+  {
+   "id": "c65",
+   "name": "杨帆65",
+   "firstCardDate": "2026-04-15",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c62",
+   "collapsed": false,
+   "createdAt": 65,
+   "updatedAt": 65
+  },
+  {
+   "id": "c66",
+   "name": "赵磊66",
+   "firstCardDate": "2026-02-11",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c63",
+   "collapsed": false,
+   "createdAt": 66,
+   "updatedAt": 66
+  },
+  {
+   "id": "c67",
+   "name": "黄敏67",
+   "firstCardDate": "2026-01-04",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c64",
+   "collapsed": false,
+   "createdAt": 67,
+   "updatedAt": 67
+  },
+  {
+   "id": "c68",
+   "name": "周涛68",
+   "firstCardDate": "2026-03-18",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c65",
+   "collapsed": false,
+   "createdAt": 68,
+   "updatedAt": 68
+  },
+  {
+   "id": "c69",
+   "name": "吴倩69",
+   "firstCardDate": "2026-06-20",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c66",
+   "collapsed": false,
+   "createdAt": 69,
+   "updatedAt": 69
+  },
+  {
+   "id": "c70",
+   "name": "徐强70",
+   "firstCardDate": "2026-02-28",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c67",
+   "collapsed": false,
+   "createdAt": 70,
+   "updatedAt": 70
+  },
+  {
+   "id": "c71",
+   "name": "黄敏",
+   "firstCardDate": "2026-07-05",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 71,
+   "updatedAt": 71
+  },
+  {
+   "id": "c72",
+   "name": "马超72",
+   "firstCardDate": "2026-05-12",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c71",
+   "collapsed": false,
+   "createdAt": 72,
+   "updatedAt": 72
+  },
+  {
+   "id": "c73",
+   "name": "朱婷73",
+   "firstCardDate": "2026-06-16",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c71",
+   "collapsed": false,
+   "createdAt": 73,
+   "updatedAt": 73
+  },
+  {
+   "id": "c74",
+   "name": "胡军74",
+   "firstCardDate": "2026-02-28",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c71",
+   "collapsed": false,
+   "createdAt": 74,
+   "updatedAt": 74
+  },
+  {
+   "id": "c75",
+   "name": "郭燕75",
+   "firstCardDate": "2026-08-16",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c72",
+   "collapsed": false,
+   "createdAt": 75,
+   "updatedAt": 75
+  },
+  {
+   "id": "c76",
+   "name": "林峰76",
+   "firstCardDate": "2026-05-03",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c73",
+   "collapsed": false,
+   "createdAt": 76,
+   "updatedAt": 76
+  },
+  {
+   "id": "c77",
+   "name": "何静77",
+   "firstCardDate": "2026-02-24",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c74",
+   "collapsed": false,
+   "createdAt": 77,
+   "updatedAt": 77
+  },
+  {
+   "id": "c78",
+   "name": "高鹏78",
+   "firstCardDate": "2026-05-16",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c75",
+   "collapsed": false,
+   "createdAt": 78,
+   "updatedAt": 78
+  },
+  {
+   "id": "c79",
+   "name": "罗霞79",
+   "firstCardDate": "2026-03-17",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c76",
+   "collapsed": false,
+   "createdAt": 79,
+   "updatedAt": 79
+  },
+  {
+   "id": "c80",
+   "name": "张伟80",
+   "firstCardDate": "2026-04-17",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c77",
+   "collapsed": false,
+   "createdAt": 80,
+   "updatedAt": 80
+  },
+  {
+   "id": "c81",
+   "name": "周涛",
+   "firstCardDate": "2026-03-23",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 81,
+   "updatedAt": 81
+  },
+  {
+   "id": "c82",
+   "name": "李娜82",
+   "firstCardDate": "2026-01-25",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c81",
+   "collapsed": false,
+   "createdAt": 82,
+   "updatedAt": 82
+  },
+  {
+   "id": "c83",
+   "name": "刘洋83",
+   "firstCardDate": "2026-05-21",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c81",
+   "collapsed": false,
+   "createdAt": 83,
+   "updatedAt": 83
+  },
+  {
+   "id": "c84",
+   "name": "陈静84",
+   "firstCardDate": "2026-05-17",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c81",
+   "collapsed": false,
+   "createdAt": 84,
+   "updatedAt": 84
+  },
+  {
+   "id": "c85",
+   "name": "杨帆85",
+   "firstCardDate": "2026-03-12",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c82",
+   "collapsed": false,
+   "createdAt": 85,
+   "updatedAt": 85
+  },
+  {
+   "id": "c86",
+   "name": "赵磊86",
+   "firstCardDate": "2026-09-18",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c83",
+   "collapsed": false,
+   "createdAt": 86,
+   "updatedAt": 86
+  },
+  {
+   "id": "c87",
+   "name": "黄敏87",
+   "firstCardDate": "2026-06-21",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c84",
+   "collapsed": false,
+   "createdAt": 87,
+   "updatedAt": 87
+  },
+  {
+   "id": "c88",
+   "name": "周涛88",
+   "firstCardDate": "2026-04-26",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c85",
+   "collapsed": false,
+   "createdAt": 88,
+   "updatedAt": 88
+  },
+  {
+   "id": "c89",
+   "name": "吴倩89",
+   "firstCardDate": "2026-07-24",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c86",
+   "collapsed": false,
+   "createdAt": 89,
+   "updatedAt": 89
+  },
+  {
+   "id": "c90",
+   "name": "徐强90",
+   "firstCardDate": "2026-04-17",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c87",
+   "collapsed": false,
+   "createdAt": 90,
+   "updatedAt": 90
+  },
+  {
+   "id": "c91",
+   "name": "吴倩",
+   "firstCardDate": "2026-06-24",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 91,
+   "updatedAt": 91
+  },
+  {
+   "id": "c92",
+   "name": "马超92",
+   "firstCardDate": "2026-01-26",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c91",
+   "collapsed": false,
+   "createdAt": 92,
+   "updatedAt": 92
+  },
+  {
+   "id": "c93",
+   "name": "朱婷93",
+   "firstCardDate": "2026-08-09",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c91",
+   "collapsed": false,
+   "createdAt": 93,
+   "updatedAt": 93
+  },
+  {
+   "id": "c94",
+   "name": "胡军94",
+   "firstCardDate": "2026-06-15",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c91",
+   "collapsed": false,
+   "createdAt": 94,
+   "updatedAt": 94
+  },
+  {
+   "id": "c95",
+   "name": "郭燕95",
+   "firstCardDate": "2026-06-12",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c92",
+   "collapsed": false,
+   "createdAt": 95,
+   "updatedAt": 95
+  },
+  {
+   "id": "c96",
+   "name": "林峰96",
+   "firstCardDate": "2026-04-04",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c93",
+   "collapsed": false,
+   "createdAt": 96,
+   "updatedAt": 96
+  },
+  {
+   "id": "c97",
+   "name": "何静97",
+   "firstCardDate": "2026-08-07",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c94",
+   "collapsed": false,
+   "createdAt": 97,
+   "updatedAt": 97
+  },
+  {
+   "id": "c98",
+   "name": "高鹏98",
+   "firstCardDate": "2026-04-16",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c95",
+   "collapsed": false,
+   "createdAt": 98,
+   "updatedAt": 98
+  },
+  {
+   "id": "c99",
+   "name": "罗霞99",
+   "firstCardDate": "2026-01-16",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c96",
+   "collapsed": false,
+   "createdAt": 99,
+   "updatedAt": 99
+  },
+  {
+   "id": "c100",
+   "name": "张伟100",
+   "firstCardDate": "2026-06-26",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c97",
+   "collapsed": false,
+   "createdAt": 100,
+   "updatedAt": 100
+  },
+  {
+   "id": "c101",
+   "name": "徐强",
+   "firstCardDate": "2026-02-27",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 101,
+   "updatedAt": 101
+  },
+  {
+   "id": "c102",
+   "name": "李娜102",
+   "firstCardDate": "2026-02-13",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c101",
+   "collapsed": false,
+   "createdAt": 102,
+   "updatedAt": 102
+  },
+  {
+   "id": "c103",
+   "name": "刘洋103",
+   "firstCardDate": "2026-04-16",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c101",
+   "collapsed": false,
+   "createdAt": 103,
+   "updatedAt": 103
+  },
+  {
+   "id": "c104",
+   "name": "陈静104",
+   "firstCardDate": "2026-07-26",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c101",
+   "collapsed": false,
+   "createdAt": 104,
+   "updatedAt": 104
+  },
+  {
+   "id": "c105",
+   "name": "杨帆105",
+   "firstCardDate": "2026-06-03",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c102",
+   "collapsed": false,
+   "createdAt": 105,
+   "updatedAt": 105
+  },
+  {
+   "id": "c106",
+   "name": "赵磊106",
+   "firstCardDate": "2026-07-15",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c103",
+   "collapsed": false,
+   "createdAt": 106,
+   "updatedAt": 106
+  },
+  {
+   "id": "c107",
+   "name": "黄敏107",
+   "firstCardDate": "2026-02-24",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c104",
+   "collapsed": false,
+   "createdAt": 107,
+   "updatedAt": 107
+  },
+  {
+   "id": "c108",
+   "name": "周涛108",
+   "firstCardDate": "2026-03-05",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c105",
+   "collapsed": false,
+   "createdAt": 108,
+   "updatedAt": 108
+  },
+  {
+   "id": "c109",
+   "name": "吴倩109",
+   "firstCardDate": "2026-03-19",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c106",
+   "collapsed": false,
+   "createdAt": 109,
+   "updatedAt": 109
+  },
+  {
+   "id": "c110",
+   "name": "徐强110",
+   "firstCardDate": "2026-03-20",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c107",
+   "collapsed": false,
+   "createdAt": 110,
+   "updatedAt": 110
+  },
+  {
+   "id": "c111",
+   "name": "孙丽",
+   "firstCardDate": "2026-08-22",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 111,
+   "updatedAt": 111
+  },
+  {
+   "id": "c112",
+   "name": "马超112",
+   "firstCardDate": "2026-03-18",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c111",
+   "collapsed": false,
+   "createdAt": 112,
+   "updatedAt": 112
+  },
+  {
+   "id": "c113",
+   "name": "朱婷113",
+   "firstCardDate": "2026-03-01",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c111",
+   "collapsed": false,
+   "createdAt": 113,
+   "updatedAt": 113
+  },
+  {
+   "id": "c114",
+   "name": "胡军114",
+   "firstCardDate": "2026-02-17",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c111",
+   "collapsed": false,
+   "createdAt": 114,
+   "updatedAt": 114
+  },
+  {
+   "id": "c115",
+   "name": "郭燕115",
+   "firstCardDate": "2026-03-14",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c112",
+   "collapsed": false,
+   "createdAt": 115,
+   "updatedAt": 115
+  },
+  {
+   "id": "c116",
+   "name": "林峰116",
+   "firstCardDate": "2026-04-01",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c113",
+   "collapsed": false,
+   "createdAt": 116,
+   "updatedAt": 116
+  },
+  {
+   "id": "c117",
+   "name": "何静117",
+   "firstCardDate": "2026-04-10",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c114",
+   "collapsed": false,
+   "createdAt": 117,
+   "updatedAt": 117
+  },
+  {
+   "id": "c118",
+   "name": "高鹏118",
+   "firstCardDate": "2026-04-25",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c115",
+   "collapsed": false,
+   "createdAt": 118,
+   "updatedAt": 118
+  },
+  {
+   "id": "c119",
+   "name": "罗霞119",
+   "firstCardDate": "2026-06-09",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c116",
+   "collapsed": false,
+   "createdAt": 119,
+   "updatedAt": 119
+  },
+  {
+   "id": "c120",
+   "name": "张伟120",
+   "firstCardDate": "2026-07-27",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c117",
+   "collapsed": false,
+   "createdAt": 120,
+   "updatedAt": 120
+  },
+  {
+   "id": "c121",
+   "name": "马超",
+   "firstCardDate": "2026-01-24",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 121,
+   "updatedAt": 121
+  },
+  {
+   "id": "c122",
+   "name": "李娜122",
+   "firstCardDate": "2026-08-22",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c121",
+   "collapsed": false,
+   "createdAt": 122,
+   "updatedAt": 122
+  },
+  {
+   "id": "c123",
+   "name": "刘洋123",
+   "firstCardDate": "2026-09-14",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c121",
+   "collapsed": false,
+   "createdAt": 123,
+   "updatedAt": 123
+  },
+  {
+   "id": "c124",
+   "name": "陈静124",
+   "firstCardDate": "2026-03-18",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c121",
+   "collapsed": false,
+   "createdAt": 124,
+   "updatedAt": 124
+  },
+  {
+   "id": "c125",
+   "name": "杨帆125",
+   "firstCardDate": "2026-09-17",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c122",
+   "collapsed": false,
+   "createdAt": 125,
+   "updatedAt": 125
+  },
+  {
+   "id": "c126",
+   "name": "赵磊126",
+   "firstCardDate": "2026-08-25",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c123",
+   "collapsed": false,
+   "createdAt": 126,
+   "updatedAt": 126
+  },
+  {
+   "id": "c127",
+   "name": "黄敏127",
+   "firstCardDate": "2026-01-25",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c124",
+   "collapsed": false,
+   "createdAt": 127,
+   "updatedAt": 127
+  },
+  {
+   "id": "c128",
+   "name": "周涛128",
+   "firstCardDate": "2026-03-05",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c125",
+   "collapsed": false,
+   "createdAt": 128,
+   "updatedAt": 128
+  },
+  {
+   "id": "c129",
+   "name": "吴倩129",
+   "firstCardDate": "2026-02-18",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c126",
+   "collapsed": false,
+   "createdAt": 129,
+   "updatedAt": 129
+  },
+  {
+   "id": "c130",
+   "name": "徐强130",
+   "firstCardDate": "2026-06-22",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c127",
+   "collapsed": false,
+   "createdAt": 130,
+   "updatedAt": 130
+  },
+  {
+   "id": "c131",
+   "name": "朱婷",
+   "firstCardDate": "2026-09-18",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 131,
+   "updatedAt": 131
+  },
+  {
+   "id": "c132",
+   "name": "马超132",
+   "firstCardDate": "2026-02-18",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c131",
+   "collapsed": false,
+   "createdAt": 132,
+   "updatedAt": 132
+  },
+  {
+   "id": "c133",
+   "name": "朱婷133",
+   "firstCardDate": "2026-04-07",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c131",
+   "collapsed": false,
+   "createdAt": 133,
+   "updatedAt": 133
+  },
+  {
+   "id": "c134",
+   "name": "胡军134",
+   "firstCardDate": "2026-01-25",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c131",
+   "collapsed": false,
+   "createdAt": 134,
+   "updatedAt": 134
+  },
+  {
+   "id": "c135",
+   "name": "郭燕135",
+   "firstCardDate": "2026-09-15",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c132",
+   "collapsed": false,
+   "createdAt": 135,
+   "updatedAt": 135
+  },
+  {
+   "id": "c136",
+   "name": "林峰136",
+   "firstCardDate": "2026-01-25",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c133",
+   "collapsed": false,
+   "createdAt": 136,
+   "updatedAt": 136
+  },
+  {
+   "id": "c137",
+   "name": "何静137",
+   "firstCardDate": "2026-08-11",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c134",
+   "collapsed": false,
+   "createdAt": 137,
+   "updatedAt": 137
+  },
+  {
+   "id": "c138",
+   "name": "高鹏138",
+   "firstCardDate": "2026-09-20",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c135",
+   "collapsed": false,
+   "createdAt": 138,
+   "updatedAt": 138
+  },
+  {
+   "id": "c139",
+   "name": "罗霞139",
+   "firstCardDate": "2026-04-23",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c136",
+   "collapsed": false,
+   "createdAt": 139,
+   "updatedAt": 139
+  },
+  {
+   "id": "c140",
+   "name": "张伟140",
+   "firstCardDate": "2026-08-17",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c137",
+   "collapsed": false,
+   "createdAt": 140,
+   "updatedAt": 140
+  },
+  {
+   "id": "c141",
+   "name": "胡军",
+   "firstCardDate": "2026-08-17",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 141,
+   "updatedAt": 141
+  },
+  {
+   "id": "c142",
+   "name": "李娜142",
+   "firstCardDate": "2026-09-09",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c141",
+   "collapsed": false,
+   "createdAt": 142,
+   "updatedAt": 142
+  },
+  {
+   "id": "c143",
+   "name": "刘洋143",
+   "firstCardDate": "2026-04-27",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c141",
+   "collapsed": false,
+   "createdAt": 143,
+   "updatedAt": 143
+  },
+  {
+   "id": "c144",
+   "name": "陈静144",
+   "firstCardDate": "2026-03-14",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c141",
+   "collapsed": false,
+   "createdAt": 144,
+   "updatedAt": 144
+  },
+  {
+   "id": "c145",
+   "name": "杨帆145",
+   "firstCardDate": "2026-07-15",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c142",
+   "collapsed": false,
+   "createdAt": 145,
+   "updatedAt": 145
+  },
+  {
+   "id": "c146",
+   "name": "赵磊146",
+   "firstCardDate": "2026-02-22",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c143",
+   "collapsed": false,
+   "createdAt": 146,
+   "updatedAt": 146
+  },
+  {
+   "id": "c147",
+   "name": "黄敏147",
+   "firstCardDate": "2026-07-03",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c144",
+   "collapsed": false,
+   "createdAt": 147,
+   "updatedAt": 147
+  },
+  {
+   "id": "c148",
+   "name": "周涛148",
+   "firstCardDate": "2026-05-26",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c145",
+   "collapsed": false,
+   "createdAt": 148,
+   "updatedAt": 148
+  },
+  {
+   "id": "c149",
+   "name": "吴倩149",
+   "firstCardDate": "2026-03-23",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c146",
+   "collapsed": false,
+   "createdAt": 149,
+   "updatedAt": 149
+  },
+  {
+   "id": "c150",
+   "name": "徐强150",
+   "firstCardDate": "2026-06-05",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c147",
+   "collapsed": false,
+   "createdAt": 150,
+   "updatedAt": 150
+  },
+  {
+   "id": "c151",
+   "name": "郭燕",
+   "firstCardDate": "2026-03-15",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 151,
+   "updatedAt": 151
+  },
+  {
+   "id": "c152",
+   "name": "马超152",
+   "firstCardDate": "2026-02-13",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c151",
+   "collapsed": false,
+   "createdAt": 152,
+   "updatedAt": 152
+  },
+  {
+   "id": "c153",
+   "name": "朱婷153",
+   "firstCardDate": "2026-03-22",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c151",
+   "collapsed": false,
+   "createdAt": 153,
+   "updatedAt": 153
+  },
+  {
+   "id": "c154",
+   "name": "胡军154",
+   "firstCardDate": "2026-03-23",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c151",
+   "collapsed": false,
+   "createdAt": 154,
+   "updatedAt": 154
+  },
+  {
+   "id": "c155",
+   "name": "郭燕155",
+   "firstCardDate": "2026-09-13",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c152",
+   "collapsed": false,
+   "createdAt": 155,
+   "updatedAt": 155
+  },
+  {
+   "id": "c156",
+   "name": "林峰156",
+   "firstCardDate": "2026-07-07",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c153",
+   "collapsed": false,
+   "createdAt": 156,
+   "updatedAt": 156
+  },
+  {
+   "id": "c157",
+   "name": "何静157",
+   "firstCardDate": "2026-06-03",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c154",
+   "collapsed": false,
+   "createdAt": 157,
+   "updatedAt": 157
+  },
+  {
+   "id": "c158",
+   "name": "高鹏158",
+   "firstCardDate": "2026-06-01",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c155",
+   "collapsed": false,
+   "createdAt": 158,
+   "updatedAt": 158
+  },
+  {
+   "id": "c159",
+   "name": "罗霞159",
+   "firstCardDate": "2026-09-15",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c156",
+   "collapsed": false,
+   "createdAt": 159,
+   "updatedAt": 159
+  },
+  {
+   "id": "c160",
+   "name": "张伟160",
+   "firstCardDate": "2026-01-13",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c157",
+   "collapsed": false,
+   "createdAt": 160,
+   "updatedAt": 160
+  },
+  {
+   "id": "c161",
+   "name": "林峰",
+   "firstCardDate": "2026-09-20",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 161,
+   "updatedAt": 161
+  },
+  {
+   "id": "c162",
+   "name": "李娜162",
+   "firstCardDate": "2026-09-03",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c161",
+   "collapsed": false,
+   "createdAt": 162,
+   "updatedAt": 162
+  },
+  {
+   "id": "c163",
+   "name": "刘洋163",
+   "firstCardDate": "2026-04-04",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c161",
+   "collapsed": false,
+   "createdAt": 163,
+   "updatedAt": 163
+  },
+  {
+   "id": "c164",
+   "name": "陈静164",
+   "firstCardDate": "2026-05-09",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c161",
+   "collapsed": false,
+   "createdAt": 164,
+   "updatedAt": 164
+  },
+  {
+   "id": "c165",
+   "name": "杨帆165",
+   "firstCardDate": "2026-03-09",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c162",
+   "collapsed": false,
+   "createdAt": 165,
+   "updatedAt": 165
+  },
+  {
+   "id": "c166",
+   "name": "赵磊166",
+   "firstCardDate": "2026-07-28",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c163",
+   "collapsed": false,
+   "createdAt": 166,
+   "updatedAt": 166
+  },
+  {
+   "id": "c167",
+   "name": "黄敏167",
+   "firstCardDate": "2026-05-13",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c164",
+   "collapsed": false,
+   "createdAt": 167,
+   "updatedAt": 167
+  },
+  {
+   "id": "c168",
+   "name": "周涛168",
+   "firstCardDate": "2026-09-17",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c165",
+   "collapsed": false,
+   "createdAt": 168,
+   "updatedAt": 168
+  },
+  {
+   "id": "c169",
+   "name": "吴倩169",
+   "firstCardDate": "2026-08-23",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c166",
+   "collapsed": false,
+   "createdAt": 169,
+   "updatedAt": 169
+  },
+  {
+   "id": "c170",
+   "name": "徐强170",
+   "firstCardDate": "2026-02-09",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c167",
+   "collapsed": false,
+   "createdAt": 170,
+   "updatedAt": 170
+  },
+  {
+   "id": "c171",
+   "name": "何静",
+   "firstCardDate": "2026-03-14",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 171,
+   "updatedAt": 171
+  },
+  {
+   "id": "c172",
+   "name": "马超172",
+   "firstCardDate": "2026-05-01",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c171",
+   "collapsed": false,
+   "createdAt": 172,
+   "updatedAt": 172
+  },
+  {
+   "id": "c173",
+   "name": "朱婷173",
+   "firstCardDate": "2026-02-26",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c171",
+   "collapsed": false,
+   "createdAt": 173,
+   "updatedAt": 173
+  },
+  {
+   "id": "c174",
+   "name": "胡军174",
+   "firstCardDate": "2026-02-20",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c171",
+   "collapsed": false,
+   "createdAt": 174,
+   "updatedAt": 174
+  },
+  {
+   "id": "c175",
+   "name": "郭燕175",
+   "firstCardDate": "2026-02-09",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c172",
+   "collapsed": false,
+   "createdAt": 175,
+   "updatedAt": 175
+  },
+  {
+   "id": "c176",
+   "name": "林峰176",
+   "firstCardDate": "2026-08-01",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c173",
+   "collapsed": false,
+   "createdAt": 176,
+   "updatedAt": 176
+  },
+  {
+   "id": "c177",
+   "name": "何静177",
+   "firstCardDate": "2026-09-14",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c174",
+   "collapsed": false,
+   "createdAt": 177,
+   "updatedAt": 177
+  },
+  {
+   "id": "c178",
+   "name": "高鹏178",
+   "firstCardDate": "2026-03-02",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c175",
+   "collapsed": false,
+   "createdAt": 178,
+   "updatedAt": 178
+  },
+  {
+   "id": "c179",
+   "name": "罗霞179",
+   "firstCardDate": "2026-04-04",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c176",
+   "collapsed": false,
+   "createdAt": 179,
+   "updatedAt": 179
+  },
+  {
+   "id": "c180",
+   "name": "张伟180",
+   "firstCardDate": "2026-05-02",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c177",
+   "collapsed": false,
+   "createdAt": 180,
+   "updatedAt": 180
+  },
+  {
+   "id": "c181",
+   "name": "高鹏",
+   "firstCardDate": "2026-04-10",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 181,
+   "updatedAt": 181
+  },
+  {
+   "id": "c182",
+   "name": "李娜182",
+   "firstCardDate": "2026-05-17",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c181",
+   "collapsed": false,
+   "createdAt": 182,
+   "updatedAt": 182
+  },
+  {
+   "id": "c183",
+   "name": "刘洋183",
+   "firstCardDate": "2026-05-15",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c181",
+   "collapsed": false,
+   "createdAt": 183,
+   "updatedAt": 183
+  },
+  {
+   "id": "c184",
+   "name": "陈静184",
+   "firstCardDate": "2026-03-09",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c181",
+   "collapsed": false,
+   "createdAt": 184,
+   "updatedAt": 184
+  },
+  {
+   "id": "c185",
+   "name": "杨帆185",
+   "firstCardDate": "2026-01-09",
+   "productIds": [
+    "p1"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c182",
+   "collapsed": false,
+   "createdAt": 185,
+   "updatedAt": 185
+  },
+  {
+   "id": "c186",
+   "name": "赵磊186",
+   "firstCardDate": "2026-01-01",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c183",
+   "collapsed": false,
+   "createdAt": 186,
+   "updatedAt": 186
+  },
+  {
+   "id": "c187",
+   "name": "黄敏187",
+   "firstCardDate": "2026-09-18",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c184",
+   "collapsed": false,
+   "createdAt": 187,
+   "updatedAt": 187
+  },
+  {
+   "id": "c188",
+   "name": "周涛188",
+   "firstCardDate": "2026-09-16",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c185",
+   "collapsed": false,
+   "createdAt": 188,
+   "updatedAt": 188
+  },
+  {
+   "id": "c189",
+   "name": "吴倩189",
+   "firstCardDate": "2026-08-04",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c186",
+   "collapsed": false,
+   "createdAt": 189,
+   "updatedAt": 189
+  },
+  {
+   "id": "c190",
+   "name": "徐强190",
+   "firstCardDate": "2026-07-22",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c187",
+   "collapsed": false,
+   "createdAt": 190,
+   "updatedAt": 190
+  },
+  {
+   "id": "c191",
+   "name": "罗霞",
+   "firstCardDate": "2026-09-27",
+   "productIds": [
+    "p4"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": null,
+   "collapsed": false,
+   "createdAt": 191,
+   "updatedAt": 191
+  },
+  {
+   "id": "c192",
+   "name": "马超192",
+   "firstCardDate": "2026-09-10",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c191",
+   "collapsed": false,
+   "createdAt": 192,
+   "updatedAt": 192
+  },
+  {
+   "id": "c193",
+   "name": "朱婷193",
+   "firstCardDate": "2026-04-08",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c191",
+   "collapsed": false,
+   "createdAt": 193,
+   "updatedAt": 193
+  },
+  {
+   "id": "c194",
+   "name": "胡军194",
+   "firstCardDate": "2026-04-27",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c191",
+   "collapsed": false,
+   "createdAt": 194,
+   "updatedAt": 194
+  },
+  {
+   "id": "c195",
+   "name": "郭燕195",
+   "firstCardDate": "2026-03-13",
+   "productIds": [
+    "p3"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c192",
+   "collapsed": false,
+   "createdAt": 195,
+   "updatedAt": 195
+  },
+  {
+   "id": "c196",
+   "name": "林峰196",
+   "firstCardDate": "2026-01-27",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c193",
+   "collapsed": false,
+   "createdAt": 196,
+   "updatedAt": 196
+  },
+  {
+   "id": "c197",
+   "name": "何静197",
+   "firstCardDate": "2026-01-03",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c194",
+   "collapsed": false,
+   "createdAt": 197,
+   "updatedAt": 197
+  },
+  {
+   "id": "c198",
+   "name": "高鹏198",
+   "firstCardDate": "2026-05-14",
+   "productIds": [
+    "p2"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c195",
+   "collapsed": false,
+   "createdAt": 198,
+   "updatedAt": 198
+  },
+  {
+   "id": "c199",
+   "name": "罗霞199",
+   "firstCardDate": "2026-01-03",
+   "productIds": [
+    "p6"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c196",
+   "collapsed": false,
+   "createdAt": 199,
+   "updatedAt": 199
+  },
+  {
+   "id": "c200",
+   "name": "张伟200",
+   "firstCardDate": "2026-07-28",
+   "productIds": [
+    "p5"
+   ],
+   "note": "",
+   "customEntries": [],
+   "referrerId": "c197",
+   "collapsed": false,
+   "createdAt": 200,
+   "updatedAt": 200
+  }
+ ]
+}

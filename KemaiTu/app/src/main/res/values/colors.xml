@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 画布背景（中性底，保证 6 种子树色相可读） -->
+    <color name="canvas_bg_light">#FBFAF7</color>
+    <color name="canvas_bg_dark">#14181A</color>
+
+    <!-- 应用图标背景：青瓷蓝绿 -->
+    <color name="ic_launcher_background">#2F6E6A</color>
+</resources>
